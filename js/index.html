@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java script</title>
+    <link rel="stylesheet" type="text/CSS" href="style.css"/>
+    <script src= "script.js"></script>
+    <br>
+    <h1>Java Script</h1>
+    <h3>Exemplo 1 - Login usando JS</h3>
+        login <input type="email" id="frmemail" placeholder="insira seu email">
+        senha <input type="password" id="frmpassword" placeholder="insira sua senha">
+        <button onclick="login()">Realizar login</button>
+    <h3>Exemplo 2 - Operações simples usando JS</h3>
+    <button onclick="Somar()">Somar</button>
+    <button onclick="Subtrair()">Subitrair</button>
+    <button onclick="Multiplicar()">Multiplicar</button>
+    <button onclick="Dividir()">Dvidir</button>
+    <button onclick="Quadrado()">Elevar ao quadrado</button>
+
+    <h3>Examplo 3 - pegando informações do html e inserindo no próprio html </h3>
+    <input type ="text" id ="frmNome"><br/>
+    <p id="exibirNome">Nome do usuário:</p>
+    <button onclick="nome()">Enviar</button>
+
+    <h3>Adicionando dados em uma lista</h3>
+    <input type ="text" id="frmProduto"><br/>
+
+    <div>
+    <ul >
+        <li>Produto 1</li>
+        <li>Produto 2</li>
+        <li>Produto 3</li>
+        <li id="produto"></li>
+        <button onclick="produto()">Enviar</button>
+    </ul>
+</div>
+</body>
+</html>
